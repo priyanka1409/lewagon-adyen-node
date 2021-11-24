@@ -1,0 +1,36 @@
+{
+  "name": "nodeo",
+  "version": "1.0.0",
+  "description": "This repository includes examples of PCI-compliant UI integrations for online payments with Adyen. Within this demo app, you'll find a simplified version of an e-commerce website, complete with commented code to highlight key features and concepts of Adyen's API. Check out the underlying code to see how you can integrate Adyen to give your shoppers the option to pay with their preferred payment methods, all in a seamless checkout experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@adyen/api-library": "^8.1.0",
+    "dot-prop": ">=5.1.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "minimist": ">=1.2.2",
+    "morgan": "^1.10.0",
+    "node-gyp": "^8.0.0",
+    "uuidv4": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adyen-examples/adyen-node-online-payments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adyen-examples/adyen-node-online-payments/issues"
+  },
+  "homepage": "https://github.com/adyen-examples/adyen-node-online-payments#readme"
+}
